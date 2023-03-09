@@ -1,0 +1,181 @@
+/* 
+Farver
+hvid: #E7E7E5
+sort: #262525
+blå: #586082
+*/
+
+ body {
+    background-color: #E7E7E5;
+    
+ }
+
+
+
+nav {
+    background-color: #262525;
+    color: #E7E7E5;
+    padding: 10px;
+}
+
+/* styling for vores store bille i toppen */
+.big {
+    width: 100%;
+    height: auto;
+}
+
+/* overskrifter */
+h1 {
+    font-family: 'Heebo', sans-serif;
+    font-family: heebo;
+    font-size: 3em;
+    text-align: left;
+    max-width: 100%;
+    font-size: 4.1vw; /*https://mdbootstrap.com/how-to/bootstrap/text-responsive/*/
+  
+}
+
+p {
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.0em;
+    color: #586082;
+    /* margin-left: 5%;
+    margin-right: 5%; */
+}
+
+
+
+
+h2 {
+    font-family: 'Rubik', sans-serif;
+}
+
+
+/* https://www.w3schools.com/howto/howto_css_image_text.asp */
+.billede_m_tekst {
+    position: relative;
+    text-align: center;
+    color: white;
+    
+}
+
+/* tekst over billede */
+.venstre_midt {
+    position: absolute;
+    top: 30%;
+    left: 10%;  
+}
+
+
+/* ----------------Newsletter ----------------- */
+.klaviyo-form-XfQDa8 {
+    padding-top: 3%;
+
+}
+
+
+/* ------------------Kærnefortælling ------------------ */
+.hero {
+    width: 100%;
+    height: 55%;
+    position: relative;
+    top: 0;
+    left: 0;
+    
+  }
+  
+  .boks {
+    opacity: 0.7;
+    position: relative;
+    top: 23%;
+    left: 7%;
+    width: 50%;
+    height: 80%;
+    border-radius: 4%;
+    
+    
+  }
+  
+  .fortælling {
+    position: relative;
+    top: 26%;
+    left: 10%;
+    width: 45%;
+    height: 75%;
+    font-size: 25px;
+    line-height: 58px;
+    color: #262525;
+    
+  }
+
+
+
+
+
+
+/* ------------------Gadget ------------------ */
+
+/* Knapper */
+.button1 {
+    /* button styling lavet ved hjælp af: https://www.w3schools.com/css/css3_buttons.asp */
+    background-color: #E7E7E5; 
+    border: 2px solid #262525;
+    color: #262525;
+    padding: 10px ;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 12px; /*runder kanterne af på vores knapper*/
+    transition-duration: 0.4s; /*afgør hastigheden af transformationen mellem knap og hover effekt.*/
+    margin: auto;
+}
+
+.button1:hover {
+    background-color: #262525;
+    color: #E7E7E5;
+}
+
+
+
+
+/* CSS for js indsatte billeder */
+#myImage {
+    width: 75%;
+    height: auto;
+    margin-right: 50%;
+    /* transform: translate(-50%, 0); */
+}
+
+/* kolloner som bliver brugt ved js */
+.column1 {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    
+}
+.column2 {
+    float: right;
+    width: 50%;
+    padding: 10px;
+  
+}
+
+
+/* Tekst link */
+a {
+    color: #586082;
+    font-weight: bold;
+}
+a:hover {
+    color: #586082;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+/* Til for at holde indsæt tekst med JS væk fra kanterne på højre og vesntre side. */
+.tekst { 
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
